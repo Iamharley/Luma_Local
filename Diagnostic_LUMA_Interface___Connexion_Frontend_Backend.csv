@@ -1,0 +1,19 @@
+Catégorie,Problème,Cause probable,Solution recommandée
+Frontend,Boutons HTML ne déclenchent aucune action,Événements JS non reliés aux boutons ou erreurs silencieuses JS,"1. Ouvrir la console (F12) et vérifier les erreurs JS
+2. Ajouter des listeners explicites sur chaque bouton avec fetch vers FastAPI
+3. Vérifier que les scripts JS sont bien chargés dans simple_real.html"
+Frontend,Chat box disparue,"Div manquante ou supprimée, ou JS responsable non exécuté","1. Rechercher les balises `chat-box`, `textarea`, etc.
+2. Vérifier que leur display n’est pas `none`
+3. Ajouter un composant HTML minimal pour debug"
+Backend,"FastAPI isolé, les boutons n’envoient rien",Pas de fetch/ajax configuré entre HTML et endpoints,"1. Ajouter dans le JS : `fetch('http://localhost:8000/integrations/...')`
+2. Vérifier les CORS dans FastAPI (ajouter `CORSMiddleware`)
+3. Tester chaque appel API manuellement dans le navigateur ou Postman"
+API Gmail,401 Unauthorized,OAuth mal configuré ou token expiré,"1. Vérifier les credentials Google (client_id, redirect_uri...)
+2. Mettre en place le flow OAuth2 complet
+3. Sauvegarder le token obtenu côté serveur"
+Infrastructure,fichier luma_super_brain.py non utilisé,Jamais importé ou appelé depuis app.py,"1. Identifier les fonctions utiles dedans
+2. Importer le module dans app.py
+3. Ajouter des endpoints pour le piloter"
+Configuration,.env mal chargé,load_dotenv() mal placé ou .env introuvable,"1. Vérifier `load_dotenv()` dans app.py
+2. Tester `os.getenv('NOM_CLE')` dans un print
+3. Vérifier que `.env` est à la racine ou spécifier le chemin"

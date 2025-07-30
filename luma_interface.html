@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LUMA Business Pro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .widget {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            backdrop-filter: blur(10px);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .btn {
+            background: #4facfe;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            color: white;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .emergency {
+            background: #fd79a8;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 LUMA Business Pro</h1>
+            <p>Assistant IA Personnel - Anne-Sophie Zerbib</p>
+        </div>
+        
+        <div class="grid">
+            <div class="widget">
+                <h2>🏥 Surveillance Médicale</h2>
+                <p>Fréquence cardiaque: 72 BPM</p>
+                <p>Température: 36.7°C</p>
+                <p>Oxygénation: 98%</p>
+                <p>Risque épilepsie: FAIBLE</p>
+                <button class="btn emergency" onclick="alert('🚨 ALERTE URGENCE DÉCLENCHÉE!\n\n• Appel SAMU: 15\n• Contact Dr. Wozniak\n• SMS Maman Corinne et Papa Daniel\n\nLes secours arrivent!')">🚨 APPEL D'URGENCE</button>
+            </div>
+            
+            <div class="widget">
+                <h2>🏡 Contrôles Domotique</h2>
+                <p>💡 Éclairage: 75%</p>
+                <p>🌡️ Climatisation: 22°C</p>
+                <p>🔒 Sécurité: Activée</p>
+                <p>🎵 Audio: Arrêté</p>
+                <button class="btn" onclick="alert('Scène activée!')">🌅 Scène Réveil</button>
+            </div>
+            
+            <div class="widget">
+                <h2>🤖 Assistant IA</h2>
+                <p>Bonjour Anne-Sophie! Comment puis-je vous aider?</p>
+                <button class="btn" onclick="alert('📧 Vous avez 5 nouveaux emails')">📧 Vérifier emails</button>
+                <button class="btn" onclick="alert('🛒 Ventes: €3,127 aujourd\'hui')">🛒 Shopify</button>
+            </div>
+            
+            <div class="widget">
+                <h2>📊 Business Analytics</h2>
+                <p>💰 Revenus mois: €12,450 (+15.2%)</p>
+                <p>📦 Commandes: 247 (+8.7%)</p>
+                <p>⭐ Satisfaction: 94% (+2.1%)</p>
+            </div>
+            
+            <div class="widget">
+                <h2>📞 Contacts d'Urgence</h2>
+                <p>🚑 SAMU: 15</p>
+                <p>👨‍⚕️ Dr. Wozniak: +33 1 42 07 33 33</p>
+                <p>👩 Maman Corinne: +33 6 28 72 23 03</p>
+                <p>👨 Papa Daniel: +33 6 65 05 75 60</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMA Business Pro - Assistant IA Personnel</title>
+    <style>
+        :root {
+            --primary-color: #667eea;
+            --secondary-color: #764ba2;
+            --accent-color: #f093fb;
+            --success-color: #4facfe;
+            --warning-color: #ffeaa7;
+            --danger-color: #fd79a8;
+            --glass-bg: rgba(255, 255, 255, 0.1);
+            --glass-border: rgba(255, 255, 255, 0.2);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.8);
+            --shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'SF Pro Display', -apple-system, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: var(--text-primary);
+            overflow-x: hidden;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Navigation latérale */
+        .sidebar {
+            width: 280px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border-right: 1px solid var(--glass-border);
+            padding: 2rem 1.5rem;
+            box-shadow: var(--shadow);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .logo::before {
+            content: "🤖";
+            margin-right: 0.5rem;
+            font-size: 2rem;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .nav-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateX(5px);
+        }
+
+        .nav-item.active {
+            background: var(--primary-color);
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .nav-icon {
+            margin-right: 1rem;
+            font-size: 1.2rem;
+        }
+
+        /* Contenu principal */
+        .main-content {
+            flex: 1;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .greeting {
+            font-size: 2rem;
+            font-weight: 300;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            border: 1px solid var(--glass-border);
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--success-color);
+            border-radius: 50%;
+            margin-right: 0.5rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Dashboard widgets */
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .widget {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+        }
+
+        .widget:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(31, 38, 135, 0.5);
+        }
+
+        .widget-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .widget-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+
+        .widget-icon {
+            margin-right: 0.5rem;
+            font-size: 1.5rem;
+        }
+
+        /* Surveillance médicale */
+        .medical-status {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .emergency-btn {
+            background: linear-gradient(135deg, var(--danger-color), #fd79a8);
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 15px rgba(253, 121, 168, 0.4);
+        }
+
+        .emergency-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(253, 121, 168, 0.6);
+        }
+
+        .biometric-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .biometric-item {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 12px;
+        }
+
+        .biometric-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--success-color);
+        }
+
+        .biometric-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: 0.5rem;
+        }
+
+        /* Contrôles domotique */
+        .domotique-controls {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .control-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid var(--glass-border);
+            padding: 1rem;
+            border-radius: 12px;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .control-btn:hover {
+            background: var(--primary-color);
+            transform: scale(1.02);
+        }
+
+        .control-btn.active {
+            background: var(--success-color);
+            box-shadow: 0 4px 15px rgba(79, 172, 254, 0.4);
+        }
+
+        /* Chat IA */
+        .chat-container {
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            margin-bottom: 1rem;
+            padding-right: 0.5rem;
+        }
+
+        .message {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: 18px;
+            max-width: 80%;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message.user {
+            background: var(--primary-color);
+            margin-left: auto;
+            border-bottom-right-radius: 6px;
+        }
+
+        .message.luma {
+            background: rgba(255, 255, 255, 0.1);
+            border-bottom-left-radius: 6px;
+        }
+
+        .chat-input {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .chat-input input {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid var(--glass-border);
+            border-radius: 25px;
+            padding: 1rem 1.5rem;
+            color: var(--text-primary);
+            font-size: 1rem;
+        }
+
+        .chat-input input::placeholder {
+            color: var(--text-secondary);
+        }
+
+        .send-btn {
+            background: var(--primary-color);
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .send-btn:hover {
+            background: var(--secondary-color);
+            transform: scale(1.1);
+        }
+
+        /* Quick actions */
+        .quick-actions {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .quick-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid var(--glass-border);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .quick-btn:hover {
+            background: var(--accent-color);
+        }
+
+        /* Analytics business */
+        .analytics-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .metric {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1.5rem;
+            border-radius: 12px;
+        }
+
+        .metric-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--success-color);
+        }
+
+        .metric-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: 0.5rem;
+        }
+
+        .metric-change {
+            font-size: 0.8rem;
+            margin-top: 0.25rem;
+        }
+
+        .metric-change.positive {
+            color: var(--success-color);
+        }
+
+        .metric-change.negative {
+            color: var(--danger-color);
+        }
+
+        /* Indicateur vocal */
+        .voice-indicator {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 2px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            z-index: 1000;
+            display: none;
+        }
+
+        .voice-indicator.active {
+            display: block;
+            animation: voicePulse 1s infinite;
+        }
+
+        @keyframes voicePulse {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); }
+            50% { transform: translate(-50%, -50%) scale(1.05); }
+        }
+
+        .voice-animation {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        /* Sliders pour domotique */
+        .slider-container {
+            margin: 1rem 0;
+        }
+
+        .slider {
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            background: rgba(255, 255, 255, 0.2);
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            cursor: pointer;
+        }
+
+        .slider::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            cursor: pointer;
+            border: none;
+        }
+
+        /* Toggle switch */
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .toggle-slider {
+            background-color: var(--primary-color);
+        }
+
+        input:checked + .toggle-slider:before {
+            transform: translateX(26px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                height: auto;
+                padding: 1rem;
+            }
+            
+            .dashboard {
+                grid-template-columns: 1fr;
+            }
+            
+            .biometric-grid, .domotique-controls, .analytics-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation latérale -->
+        <nav class="sidebar">
+            <div class="logo">LUMA Business Pro</div>
+            
+            <div class="nav-item active" data-section="dashboard">
+                <span class="nav-icon">🏠</span>
+                <span>Dashboard</span>
+            </div>
+            
+            <div class="nav-item" data-section="medical">
+                <span class="nav-icon">🏥</span>
+                <span>Surveillance Médicale</span>
+            </div>
+            
+            <div class="nav-item" data-section="domotique">
+                <span class="nav-icon">🏡</span>
+                <span>Domotique</span>
+            </div>
+            
+            <div class="nav-item" data-section="chat">
+                <span class="nav-icon">💬</span>
+                <span>Chat IA</span>
+            </div>
+            
+            <div class="nav-item" data-section="business">
+                <span class="nav-icon">📊</span>
+                <span>Business Analytics</span>
+            </div>
+            
+            <div class="nav-item" data-section="settings">
+                <span class="nav-icon">⚙️</span>
+                <span>Paramètres</span>
+            </div>
+        </nav>
+
+        <!-- Contenu principal -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="greeting">
+                    <span id="greeting-text">Bonjour Anne-Sophie !</span>
+                </div>
+                <div class="user-info">
+                    <div class="status-dot"></div>
+                    <span>LUMA Active</span>
+                </div>
+            </header>
+
+            <!-- Section Dashboard -->
+            <section id="dashboard" class="section active">
+                <div class="dashboard">
+                    <!-- Widget Surveillance Médicale -->
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">🏥</span>
+                                Surveillance Médicale
+                            </div>
+                        </div>
+                        
+                        <div class="medical-status">
+                            <div class="biometric-grid">
+                                <div class="biometric-item">
+                                    <div class="biometric-value" id="heart-rate">72 BPM</div>
+                                    <div class="biometric-label">Fréquence Cardiaque</div>
+                                </div>
+                                <div class="biometric-item">
+                                    <div class="biometric-value" id="temperature">36.7°C</div>
+                                    <div class="biometric-label">Température</div>
+                                </div>
+                                <div class="biometric-item">
+                                    <div class="biometric-value" id="oxygen">98%</div>
+                                    <div class="biometric-label">Oxygénation</div>
+                                </div>
+                                <div class="biometric-item">
+                                    <div class="biometric-value" id="epilepsy-risk" style="color: var(--success-color)">FAIBLE</div>
+                                    <div class="biometric-label">Risque Épilepsie</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Widget Domotique -->
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">🏡</span>
+                                Contrôles Domotique
+                            </div>
+                        </div>
+                        
+                        <div class="domotique-controls">
+                            <div class="control-btn" id="lights-control">
+                                <div>💡 Éclairage</div>
+                                <small>75% luminosité</small>
+                            </div>
+                            <div class="control-btn" id="climate-control">
+                                <div>🌡️ Climatisation</div>
+                                <small>22°C</small>
+                            </div>
+                            <div class="control-btn active" id="security-control">
+                                <div>🔒 Sécurité</div>
+                                <small>Activée</small>
+                            </div>
+                            <div class="control-btn" id="music-control">
+                                <div>🎵 Audio</div>
+                                <small>Arrêté</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Widget Chat IA -->
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">🤖</span>
+                                Assistant IA
+                            </div>
+                        </div>
+                        
+                        <div class="quick-actions">
+                            <div class="quick-btn" onclick="quickAction('email')">📧 Emails</div>
+                            <div class="quick-btn" onclick="quickAction('calendar')">📅 Agenda</div>
+                            <div class="quick-btn" onclick="quickAction('shopify')">🛒 Shopify</div>
+                            <div class="quick-btn" onclick="quickAction('weather')">🌤️ Météo</div>
+                        </div>
+                        
+                        <div class="chat-messages" id="mini-chat">
+                            <div class="message luma">
+                                Bonjour ! Comment puis-je vous aider aujourd'hui ?
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Widget Business Analytics -->
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">📊</span>
+                                Analytics Business
+                            </div>
+                        </div>
+                        
+                        <div class="analytics-grid">
+                            <div class="metric">
+                                <div class="metric-value">€12,450</div>
+                                <div class="metric-label">Revenus Mois</div>
+                                <div class="metric-change positive">+15.2%</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">247</div>
+                                <div class="metric-label">Commandes</div>
+                                <div class="metric-change positive">+8.7%</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">94%</div>
+                                <div class="metric-label">Satisfaction</div>
+                                <div class="metric-change positive">+2.1%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Surveillance Médicale -->
+            <section id="medical" class="section">
+                <div class="widget">
+                    <div class="widget-header">
+                        <div class="widget-title">
+                            <span class="widget-icon">🚨</span>
+                            Urgence Médicale
+                        </div>
+                    </div>
+                    
+                    <div class="medical-status">
+                        <button class="emergency-btn" onclick="triggerEmergency()">
+                            🚨 APPEL D'URGENCE
+                        </button>
+                        <p style="margin-top: 1rem; opacity: 0.8;">
+                            Appuyez en cas de crise d'épilepsie
+                        </p>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-header">
+                        <div class="widget-title">
+                            <span class="widget-icon">📈</span>
+                            Monitoring Temps Réel
+                        </div>
+                    </div>
+                    
+                    <div class="biometric-grid">
+                        <div class="biometric-item">
+                            <div class="biometric-value" id="detailed-heart-rate">72 BPM</div>
+                            <div class="biometric-label">Fréquence Cardiaque</div>
+                            <div style="margin-top: 0.5rem; height: 40px; background: rgba(79, 172, 254, 0.2); border-radius: 6px; position: relative; overflow: hidden;">
+                                <div id="heart-wave" style="position: absolute; width: 100%; height: 100%; background: linear-gradient(90deg, transparent 0%, var(--success-color) 50%, transparent 100%); animation: wave 2s linear infinite;"></div>
+                            </div>
+                        </div>
+                        <div class="biometric-item">
+                            <div class="biometric-value" id="detailed-temperature">36.7°C</div>
+                            <div class="biometric-label">Température Corporelle</div>
+                        </div>
+                        <div class="biometric-item">
+                            <div class="biometric-value" id="detailed-breathing">16/min</div>
+                            <div class="biometric-label">Fréquence Respiratoire</div>
+                        </div>
+                        <div class="biometric-item">
+                            <div class="biometric-value" id="detailed-oxygen">98%</div>
+                            <div class="biometric-label">Saturation O₂</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-header">
+                        <div class="widget-title">
+                            <span class="widget-icon">🧠</span>
+                            Détection Épilepsie
+                        </div>
+                    </div>
+                    
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🟢</div>
+                        <div style="font-size: 1.5rem; font-weight: 600; color: var(--success-color);">
+                            STATUT NORMAL
+                        </div>
+                        <div style="margin-top: 1rem; opacity: 0.8;">
+                            Surveillance active 24/7<br>
+                            Dernière analyse : Il y a 2 secondes
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Domotique -->
+            <section id="domotique" class="section">
+                <div class="dashboard">
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">💡</span>
+                                Contrôle Éclairage
+                            </div>
+                        </div>
+                        
+                        <div class="slider-container">
+                            <label>Luminosité Générale: <span id="brightness-value">75%</span></label>
+                            <input type="range" min="0" max="100" value="75" class="slider" id="brightness-slider">
+                        </div>
+                        
+                        <div class="domotique-controls">
+                            <div class="control-btn active">🏠 Salon</div>
+                            <div class="control-btn">🛏️ Chambre</div>
+                            <div class="control-btn">🍽️ Cuisine</div>
+                            <div class="control-btn">🚿 Salle de bain</div>
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">🌡️</span>
+                                Contrôle Climatisation
+                            </div>
+                        </div>
+                        
+                        <div class="slider-container">
+                            <label>Température: <span id="temp-value">22°C</span></label>
+                            <input type="range" min="16" max="30" value="22" class="slider" id="temp-slider">
+                        </div>
+                        
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+                            <span>Mode Auto</span>
+                            <label class="toggle-switch">
+                                <input type="checkbox" checked>
+                                <span class="toggle-slider"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">🎬</span>
+                                Scènes Automatiques
+                            </div>
+                        </div>
+                        
+                        <div class="domotique-controls">
+                            <div class="control-btn" onclick="activateScene('morning')">
+                                <div>🌅 Réveil</div>
+                                <small>Lumière douce + musique</small>
+                            </div>
+                            <div class="control-btn" onclick="activateScene('evening')">
+                                <div>🌆 Soirée</div>
+                                <small>Ambiance chaleureuse</small>
+                            </div>
+                            <div class="control-btn" onclick="activateScene('sleep')">
+                                <div>🌙 Sommeil</div>
+                                <small>Extinction progressive</small>
+                            </div>
+                            <div class="control-btn active" onclick="activateScene('away')">
+                                <div>🚪 Absence</div>
+                                <small>Sécurité activée</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">📱</span>
+                                Appareils Connectés
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px;">
+                                <div>
+                                    <div>🤖 Aspirateur Robot</div>
+                                    <small style="opacity: 0.7;">En charge - Batterie 85%</small>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px;">
+                                <div>
+                                    <div>📱 Alexa Salon</div>
+                                    <small style="opacity: 0.7;">Connectée - En veille</small>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px;">
+                                <div>
+                                    <div>📹 Caméras Sécurité</div>
+                                    <small style="opacity: 0.7;">4 caméras actives</small>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Chat IA -->
+            <section id="chat" class="section">
+                <div class="widget" style="height: 80vh;">
+                    <div class="widget-header">
+                        <div class="widget-title">
+                            <span class="widget-icon">🤖</span>
+                            Assistant IA LUMA
+                        </div>
+                        <button onclick="toggleVoiceMode()" class="control-btn" id="voice-btn">
+                            🎤 Mode Vocal
+                        </button>
+                    </div>
+                    
+                    <div class="quick-actions">
+                        <div class="quick-btn" onclick="quickAction('email')">📧 Vérifier emails</div>
+                        <div class="quick-btn" onclick="quickAction('calendar')">📅 Mon agenda</div>
+                        <div class="quick-btn" onclick="quickAction('shopify')">🛒 Ventes Shopify</div>
+                        <div class="quick-btn" onclick="quickAction('weather')">🌤️ Météo du jour</div>
+                        <div class="quick-btn" onclick="quickAction('reminder')">⏰ Créer rappel</div>
+                        <div class="quick-btn" onclick="quickAction('social')">📱 Post réseaux sociaux</div>
+                    </div>
+                    
+                    <div class="chat-container" style="height: calc(100% - 200px);">
+                        <div class="chat-messages" id="chat-messages">
+                            <div class="message luma">
+                                Bonjour Anne-Sophie ! Je suis LUMA, votre assistant IA personnel. Comment puis-je vous aider aujourd'hui ?
+                            </div>
+                        </div>
+                        
+                        <div class="chat-input">
+                            <input type="text" id="chat-input" placeholder="Tapez votre message ou dites 'Hey Luma'..." onkeypress="handleEnter(event)">
+                            <button class="send-btn" onclick="sendMessage()">
+                                ➤
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Business Analytics -->
+            <section id="business" class="section">
+                <div class="dashboard">
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">💰</span>
+                                Revenus & Ventes
+                            </div>
+                        </div>
+                        
+                        <div class="analytics-grid">
+                            <div class="metric">
+                                <div class="metric-value">€12,450</div>
+                                <div class="metric-label">Revenus ce mois</div>
+                                <div class="metric-change positive">+15.2% vs mois dernier</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">€3,127</div>
+                                <div class="metric-label">Revenus aujourd'hui</div>
+                                <div class="metric-change positive">+23.5% vs hier</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">€41,200</div>
+                                <div class="metric-label">Objectif mensuel</div>
+                                <div class="metric-change">30.2% réalisé</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">📦</span>
+                                Commandes & Clients
+                            </div>
+                        </div>
+                        
+                        <div class="analytics-grid">
+                            <div class="metric">
+                                <div class="metric-value">247</div>
+                                <div class="metric-label">Commandes ce mois</div>
+                                <div class="metric-change positive">+8.7%</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">18</div>
+                                <div class="metric-label">Nouveaux clients</div>
+                                <div class="metric-change positive">+12.3%</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">€50.42</div>
+                                <div class="metric-label">Panier moyen</div>
+                                <div class="metric-change positive">+5.8%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">📊</span>
+                                Performance Générale
+                            </div>
+                        </div>
+                        
+                        <div class="analytics-grid">
+                            <div class="metric">
+                                <div class="metric-value">94%</div>
+                                <div class="metric-label">Satisfaction client</div>
+                                <div class="metric-change positive">+2.1%</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">2.3%</div>
+                                <div class="metric-label">Taux de retour</div>
+                                <div class="metric-change positive">-0.5%</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">87%</div>
+                                <div class="metric-label">Taux de conversion</div>
+                                <div class="metric-change positive">+3.2%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">🎯</span>
+                                Actions Recommandées
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 1rem;">
+                            <div class="control-btn" style="text-align: left; padding: 1.5rem;">
+                                <div style="font-weight: 600;">📧 Relancer les paniers abandonnés</div>
+                                <small>12 paniers abandonnés depuis hier (+€427 potentiel)</small>
+                            </div>
+                            
+                            <div class="control-btn" style="text-align: left; padding: 1.5rem;">
+                                <div style="font-weight: 600;">📱 Post Instagram produit star</div>
+                                <small>Votre produit "Vape Pro" performe bien (+18% ventes)</small>
+                            </div>
+                            
+                            <div class="control-btn" style="text-align: left; padding: 1.5rem;">
+                                <div style="font-weight: 600;">💌 Campagne fidélisation</div>
+                                <small>43 clients n'ont pas commandé depuis 30j</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Paramètres -->
+            <section id="settings" class="section">
+                <div class="dashboard">
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">🤖</span>
+                                Configuration IA
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <div style="font-weight: 600;">Mode Vocal</div>
+                                    <small style="opacity: 0.7;">Activation par "Hey Luma"</small>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked id="voice-mode-toggle">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <div style="font-weight: 600;">Surveillance Médicale</div>
+                                    <small style="opacity: 0.7;">Monitoring épilepsie 24/7</small>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked id="medical-monitoring-toggle">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <div style="font-weight: 600;">Notifications Proactives</div>
+                                    <small style="opacity: 0.7;">Rappels et suggestions automatiques</small>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked id="proactive-notifications-toggle">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">🏥</span>
+                                Paramètres Médicaux
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 1rem;">
+                            <div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px;">
+                                <div style="font-weight: 600; margin-bottom: 0.5rem;">Contacts d'Urgence</div>
+                                <div style="opacity: 0.8; margin-bottom: 1rem;">
+                                    📞 SAMU: 15<br>
+                                    📞 Dr. Martin: +33 6 12 34 56 78<br>
+                                    📞 Contact proche: +33 6 87 65 43 21
+                                </div>
+                                <button class="control-btn" style="width: 100%;">Modifier les contacts</button>
+                            </div>
+                            
+                            <div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px;">
+                                <div style="font-weight: 600; margin-bottom: 0.5rem;">Informations Médicales</div>
+                                <div style="opacity: 0.8; margin-bottom: 1rem;">
+                                    Épilepsie diagnostiquée<br>
+                                    Traitement: Lamotrigine 200mg<br>
+                                    Dernière crise: Il y a 3 mois
+                                </div>
+                                <button class="control-btn" style="width: 100%;">Mettre à jour</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">
+                                <span class="widget-icon">🔐</span>
+                                Intégrations & APIs
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px;">
+                                <div>
+                                    <div style="font-weight: 600;">📧 Gmail</div>
+                                    <small style="opacity: 0.7;">Connecté - Accès emails</small>
+                                </div>
+                                <div style="color: var(--success-color);">✅</div>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px;">
+                                <div>
+                                    <div style="font-weight: 600;">🛒 Shopify</div>
+                                    <small style="opacity: 0.7;">Connecté - Analytics business</small>
+                                </div>
+                                <div style="color: var(--success-color);">✅</div>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px;">
+                                <div>
+                                    <div style="font-weight: 600;">🏠 HomeKit</div>
+                                    <small style="opacity: 0.7;">Connecté - Contrôle domotique</small>
+                                </div>
+                                <div style="color: var(--success-color);">✅</div>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px;">
+                                <div>
+                                    <div style="font-weight: 600;">📱 Réseaux Sociaux</div>
+                                    <small style="opacity: 0.7;">Instagram, LinkedIn connectés</small>
+                                </div>
+                                <div style="color: var(--success-color);">✅</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Indicateur vocal -->
+    <div class="voice-indicator" id="voice-indicator">
+        <div class="voice-animation">🎤</div>
+        <div style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">Mode Vocal Actif</div>
+        <div style="opacity: 0.8;">Dites "Hey Luma" pour commencer</div>
+    </div>
+
+    <!-- Animations CSS supplémentaires -->
+    <style>
+        @keyframes wave {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+    </style>
+
+    <script>
+        // Variables globales
+        let isListening = false;
+        let voiceModeActive = false;
+        let recognition;
+        let synthesis = window.speechSynthesis;
+
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeApp();
+            updateGreeting();
+            startBiometricSimulation();
+            initializeVoiceRecognition();
+        });
+
+        // Navigation entre sections
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const section = this.dataset.section;
+                showSection(section);
+                
+                // Mise à jour navigation active
+                document.querySelectorAll('.nav-item').forEach(nav => nav.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        function showSection(sectionName) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionName).classList.add('active');
+        }
+
+        // Mise à jour du message de bienvenue
+        function updateGreeting() {
+            const hour = new Date().getHours();
+            const greetingElement = document.getElementById('greeting-text');
+            
+            if (hour < 12) {
+                greetingElement.textContent = 'Bonjour Anne-Sophie ! ☀️';
+            } else if (hour < 18) {
+                greetingElement.textContent = 'Bon après-midi Anne-Sophie ! 🌤️';
+            } else {
+                greetingElement.textContent = 'Bonsoir Anne-Sophie ! 🌙';
+            }
+        }
+
+        // Simulation des données biométriques
+        function startBiometricSimulation() {
+            setInterval(() => {
+                updateBiometrics();
+            }, 3000);
+        }
+
+        function updateBiometrics() {
+            // Simulation de données réalistes
+            const heartRate = 68 + Math.floor(Math.random() * 15);
+            const temperature = (36.5 + Math.random() * 0.8).toFixed(1);
+            const oxygen = 97 + Math.floor(Math.random() * 3);
+            const breathing = 14 + Math.floor(Math.random() * 6);
+
+            // Mise à jour des valeurs
+            document.getElementById('heart-rate').textContent = heartRate + ' BPM';
+            document.getElementById('detailed-heart-rate').textContent = heartRate + ' BPM';
+            document.getElementById('temperature').textContent = temperature + '°C';
+            document.getElementById('detailed-temperature').textContent = temperature + '°C';
+            document.getElementById('oxygen').textContent = oxygen + '%';
+            document.getElementById('detailed-oxygen').textContent = oxygen + '%';
+            document.getElementById('detailed-breathing').textContent = breathing + '/min';
+        }
+
+        // Chat IA
+        function handleEnter(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('chat-input');
+            const message = input.value.trim();
+            
+            if (message) {
+                addMessage(message, 'user');
+                input.value = '';
+                
+                // Simulation de réponse IA
+                setTimeout(() => {
+                    const response = generateAIResponse(message);
+                    addMessage(response, 'luma');
+                    speakResponse(response);
+                }, 1000);
+            }
+        }
+
+        function addMessage(content, sender) {
+            const messagesContainer = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            messageDiv.textContent = content;
+            messagesContainer.appendChild(messageDiv);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        function generateAIResponse(message) {
+            const responses = {
+                'email': 'Vous avez 5 nouveaux emails. 2 demandes clients importantes et 1 commande à traiter.',
+                'calendar': 'Votre prochain RDV est à 14h30 avec le fournisseur. Voulez-vous que je prépare un résumé ?',
+                'shopify': 'Vos ventes aujourd\'hui : €3,127 (+23% vs hier). 12 nouvelles commandes depuis ce matin !',
+                'weather': 'Il fait 22°C à Paris, partiellement nuageux. Idéal pour sortir cet après-midi !',
+                'reminder': 'Quel rappel souhaitez-vous créer ? Je peux le programmer et vous alerter au bon moment.',
+                'social': 'Voulez-vous que je crée un post pour Instagram ou LinkedIn ? Quel sujet vous intéresse ?'
+            };
+
+            const lowerMessage = message.toLowerCase();
+            for (const [key, response] of Object.entries(responses)) {
+                if (lowerMessage.includes(key)) {
+                    return response;
+                }
+            }
+
+            return 'Je suis là pour vous aider ! Demandez-moi n\'importe quoi concernant vos emails, agenda, boutique ou domotique.';
+        }
+
+        // Actions rapides
+        function quickAction(action) {
+            const input = document.getElementById('chat-input');
+            input.value = action;
+            sendMessage();
+        }
+
+        // Reconnaissance vocale
+        function initializeVoiceRecognition() {
+            if ('webkitSpeechRecognition' in window) {
+                recognition = new webkitSpeechRecognition();
+                recognition.continuous = true;
+                recognition.interimResults = true;
+                recognition.lang = 'fr-FR';
+
+                recognition.onresult = function(event) {
+                    let finalTranscript = '';
+                    for (let i = event.resultIndex; i < event.results.length; i++) {
+                        if (event.results[i].isFinal) {
+                            finalTranscript += event.results[i][0].transcript;
+                        }
+                    }
+
+                    if (finalTranscript.toLowerCase().includes('hey luma')) {
+                        handleVoiceCommand(finalTranscript);
+                    }
+                };
+
+                recognition.onerror = function(event) {
+                    console.log('Erreur reconnaissance vocale:', event.error);
+                };
+
+                // Démarrage automatique
+                startListening();
+            }
+        }
+
+        function startListening() {
+            if (recognition && !isListening) {
+                recognition.start();
+                isListening = true;
+                console.log('Écoute vocale activée');
+            }
+        }
+
+        function stopListening() {
+            if (recognition && isListening) {
+                recognition.stop();
+                isListening = false;
+                console.log('Écoute vocale désactivée');
+            }
+        }
+
+        function handleVoiceCommand(command) {
+            speakResponse('Oui, je vous écoute !');
+            
+            // Traitement de la commande vocale
+            const cleanCommand = command.toLowerCase().replace('hey luma', '').trim();
+            if (cleanCommand) {
+                addMessage(cleanCommand, 'user');
+                const response = generateAIResponse(cleanCommand);
+                addMessage(response, 'luma');
+                speakResponse(response);
+            }
+        }
+
+        function speakResponse(text) {
+            if (synthesis) {
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'fr-FR';
+                utterance.rate = 0.9;
+                utterance.pitch = 1.1;
+                synthesis.speak(utterance);
+            }
+        }
+
+        function toggleVoiceMode() {
+            voiceModeActive = !voiceModeActive;
+            const indicator = document.getElementById('voice-indicator');
+            const btn = document.getElementById('voice-btn');
+            
+            if (voiceModeActive) {
+                indicator.classList.add('active');
+                btn.style.background = 'var(--success-color)';
+                btn.textContent = '🎤 Vocal ON';
+                speakResponse('Mode vocal activé. Dites Hey Luma pour me parler.');
+                startListening();
+            } else {
+                indicator.classList.remove('active');
+                btn.style.background = '';
+                btn.textContent = '🎤 Mode Vocal';
+                stopListening();
+            }
+        }
+
+        // Contrôles domotique
+        function activateScene(scene) {
+            const scenes = {
+                'morning': 'Scène Réveil activée : lumières douces, musique relaxante, température 21°C',
+                'evening': 'Scène Soirée activée : éclairage ambiance, température 22°C',
+                'sleep': 'Scène Sommeil activée : extinction progressive, température 19°C',
+                'away': 'Scène Absence activée : éclairage sécurité, alarme ON'
+            };
+            
+            addMessage(`Activation ${scene}`, 'user');
+            addMessage(scenes[scene], 'luma');
+            speakResponse(scenes[scene]);
+            
+            // Mise à jour visuelle
+            document.querySelectorAll('[onclick*="activateScene"]').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.closest('.control-btn').classList.add('active');
+        }
+
+        // Urgence médicale
+        function triggerEmergency() {
+            const confirmed = confirm('⚠️ CONFIRMATION REQUISE ⚠️\n\nVoulez-vous vraiment déclencher l\'alerte d\'urgence ?\nCela contactera immédiatement les secours.');
+            
+            if (confirmed) {
+                alert('🚨 ALERTE URGENCE DÉCLENCHÉE 🚨\n\n• Appel automatique SAMU: 15\n• Contact Dr. Martin\n• SMS famille\n• Géolocalisation transmise\n\nLes secours arrivent !');
+                
+                // Simulation d'appel d'urgence
+                speakResponse('Alerte d\'urgence déclenchée. J\'appelle les secours et je contacte vos proches.');
+                
+                // Dans une vraie app, ici on déclencherait les vrais appels
+            }
+        }
+
+        // Sliders domotique
+        document.getElementById('brightness-slider')?.addEventListener('input', function() {
+            document.getElementById('brightness-value').textContent = this.value + '%';
+        });
+
+        document.getElementById('temp-slider')?.addEventListener('input', function() {
+            document.getElementById('temp-value').textContent = this.value + '°C';
+        });
+
+        // Initialisation de l'app
+        function initializeApp() {
+            console.log('🤖 LUMA Business Pro initialisé !');
+            speakResponse('Bonjour Anne-Sophie ! LUMA est prêt à vous assister.');
+        }
+    </script>
+</body>
+</html>

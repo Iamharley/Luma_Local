@@ -1,0 +1,940 @@
+2025-07-30 14:43:53,992 - LUMA - INFO - ✅ Toutes les dépendances sont installées
+2025-07-30 14:43:53,992 - LUMA - INFO - Configuration LUMA chargée
+2025-07-30 14:43:54,015 - LUMA - INFO - 🏡 Contrôleur domotique initialisé
+2025-07-30 14:43:54,015 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:43:54,016 - LUMA - INFO - 🤖 Serveur LUMA initialisé
+2025-07-30 14:43:54,017 - LUMA - INFO - 🏥 Démarrage surveillance médicale
+2025-07-30 14:43:54,017 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:43:54,017 - LUMA - INFO - 🔄 Tâches en arrière-plan démarrées
+2025-07-30 14:43:54,017 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:43:54,017 - LUMA - INFO - 🚀 LUMA Business Pro démarré sur http://127.0.0.1:8080
+2025-07-30 14:43:55,867 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-30 14:43:55,868 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 14:44:24,022 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:44:24,022 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:44:54,027 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:44:54,027 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:45:24,032 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:45:24,033 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:59:24,230 - LUMA - INFO - ✅ Toutes les dépendances sont installées
+2025-07-30 14:59:24,230 - LUMA - INFO - Configuration LUMA chargée
+2025-07-30 14:59:24,245 - LUMA - INFO - 🏡 Contrôleur domotique initialisé
+2025-07-30 14:59:24,245 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:59:24,246 - LUMA - INFO - 🤖 Serveur LUMA initialisé
+2025-07-30 14:59:24,246 - LUMA - INFO - 🏥 Démarrage surveillance médicale
+2025-07-30 14:59:24,247 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:59:24,247 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:59:24,247 - LUMA - INFO - 🔄 Tâches en arrière-plan démarrées
+2025-07-30 14:59:24,247 - LUMA - INFO - 🚀 LUMA Business Pro démarré sur http://127.0.0.1:8080
+2025-07-30 14:59:24,317 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-30 14:59:24,317 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 14:59:54,252 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 14:59:54,252 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:00:24,257 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:00:24,257 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:00:54,261 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:00:54,262 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:01:24,263 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:01:24,265 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:01:54,265 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:01:54,265 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:02:15,033 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 15:02:15,037 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:02:15] "GET / HTTP/1.1" 200 -
+2025-07-30 15:02:15,099 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:02:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-30 15:02:24,270 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:02:24,270 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:02:54,275 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:02:54,275 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:03:24,281 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:03:24,282 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:03:38,152 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:03:38,152 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:03:38,152 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:03:38,152 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:03:38,152 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:03:54,287 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:03:54,289 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:04:24,294 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:04:24,294 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:04:54,295 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:04:54,295 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:05:24,297 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:05:24,297 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:05:54,302 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:05:54,302 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:06:24,304 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:06:24,305 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:06:54,310 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:06:54,310 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:07:24,324 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:07:24,326 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:07:54,330 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:07:54,331 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:08:24,333 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:08:24,334 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:08:54,338 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:08:54,340 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:09:22,403 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:09:22,403 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:09:22,403 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:09:22,404 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:09:22,404 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:09:24,342 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:09:24,342 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:09:54,346 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:09:54,346 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:10:24,347 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:10:24,348 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:10:54,353 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:10:54,353 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:17:45,531 - LUMA - INFO - ✅ Toutes les dépendances sont installées
+2025-07-30 15:17:45,531 - LUMA - INFO - Configuration LUMA chargée
+2025-07-30 15:17:45,545 - LUMA - INFO - 🏡 Contrôleur domotique initialisé
+2025-07-30 15:17:45,545 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:17:45,546 - LUMA - INFO - 🤖 Serveur LUMA initialisé
+2025-07-30 15:17:45,546 - LUMA - INFO - 🏥 Démarrage surveillance médicale
+2025-07-30 15:17:45,546 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:17:45,547 - LUMA - INFO - 🔄 Tâches en arrière-plan démarrées
+2025-07-30 15:17:45,547 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:17:45,547 - LUMA - INFO - 🚀 LUMA Business Pro démarré sur http://127.0.0.1:8080
+2025-07-30 15:17:45,573 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-30 15:17:45,573 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 15:18:09,062 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:18:09,063 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:18:09,063 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:18:09,063 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:18:09,063 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:18:15,552 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:18:15,552 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:18:32,622 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 15:18:32,640 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:18:32] "GET / HTTP/1.1" 200 -
+2025-07-30 15:18:45,557 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:18:45,558 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:19:15,563 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:19:15,564 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:19:45,568 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:19:45,569 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:20:15,572 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:20:15,573 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:20:45,578 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:20:45,579 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:21:15,592 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:21:15,593 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:21:45,603 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:21:45,605 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:22:15,610 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:22:15,611 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:22:45,621 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:22:45,622 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:22:51,415 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 15:22:51,417 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:22:51] "GET / HTTP/1.1" 200 -
+2025-07-30 15:22:56,681 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 15:22:56,682 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:22:56] "HEAD / HTTP/1.1" 200 -
+2025-07-30 15:23:04,897 - LUMA - INFO - ✅ Toutes les dépendances sont installées
+2025-07-30 15:23:04,897 - LUMA - INFO - Configuration LUMA chargée
+2025-07-30 15:23:04,912 - LUMA - INFO - 🏡 Contrôleur domotique initialisé
+2025-07-30 15:23:04,912 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:23:04,913 - LUMA - INFO - 🤖 Serveur LUMA initialisé
+2025-07-30 15:23:04,914 - LUMA - INFO - 🏥 Démarrage surveillance médicale
+2025-07-30 15:23:04,914 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:23:04,914 - LUMA - INFO - 🔄 Tâches en arrière-plan démarrées
+2025-07-30 15:23:04,914 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:23:04,914 - LUMA - INFO - 🚀 LUMA Business Pro démarré sur http://127.0.0.1:8080
+2025-07-30 15:23:04,935 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-30 15:23:04,935 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 15:23:10,614 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 15:23:10,618 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:23:10] "GET / HTTP/1.1" 200 -
+2025-07-30 15:23:29,423 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 15:23:29,425 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 15:23:29] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-30 15:23:34,919 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:23:34,919 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:24:04,924 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:24:04,925 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:24:34,929 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:24:34,934 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:25:04,936 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:25:04,937 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:25:34,941 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:25:34,941 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:26:04,947 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:26:04,949 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:26:34,954 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:26:34,954 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:27:04,956 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:27:04,957 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:27:34,961 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:27:34,962 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:28:04,966 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:28:04,967 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:28:34,971 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:28:34,972 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:28:54,639 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:28:54,639 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:28:54,639 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:28:54,639 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:28:54,639 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:29:04,982 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:29:04,982 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:29:24,308 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:29:24,308 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:29:24,308 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:29:24,308 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:29:24,308 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:29:34,992 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:29:34,992 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:30:05,002 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:30:05,002 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:30:35,012 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:30:35,012 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:31:05,020 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:31:05,021 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:31:35,025 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:31:35,026 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:32:05,036 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:32:05,036 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:32:35,046 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:32:35,047 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:33:05,050 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:33:05,051 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:33:35,056 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:33:35,056 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:34:05,061 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:34:05,061 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:34:35,065 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:34:35,069 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:35:05,074 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:35:05,074 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:35:35,079 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:35:35,080 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:35:43,314 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:35:43,314 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:35:43,314 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:35:43,314 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:35:43,314 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:36:05,084 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:36:05,085 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:36:35,094 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:36:35,095 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:36:35,893 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:36:35,894 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:36:35,894 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:36:35,894 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:36:35,894 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:37:05,105 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:37:05,106 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:37:35,116 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:37:35,117 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:38:05,127 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:38:05,127 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:38:35,137 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:38:35,138 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:38:35,906 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:38:35,906 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:38:35,906 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:38:35,906 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:38:35,906 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:39:05,143 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:39:05,143 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:39:35,153 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:39:35,153 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:40:05,163 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:40:05,163 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:40:35,176 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:40:35,177 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:41:05,187 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:41:05,188 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:41:35,204 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:41:35,204 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:42:05,214 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:42:05,215 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:42:35,216 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:42:35,217 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:43:05,225 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:43:05,226 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:43:05,952 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:43:05,952 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:43:05,952 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:43:05,952 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:43:05,952 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:43:35,235 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:43:35,236 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:44:05,241 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:44:05,242 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:44:35,251 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:44:35,252 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:45:05,262 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:45:05,262 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:45:35,272 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:45:35,272 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:46:05,276 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:46:05,280 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:46:35,290 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:46:35,291 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:47:05,293 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:47:05,293 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:47:35,294 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:47:35,294 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:48:05,304 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:48:05,305 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:48:35,315 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:48:35,315 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:49:05,327 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:49:05,327 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:49:35,335 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:49:35,336 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:50:05,345 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:50:05,346 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:50:35,355 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:50:35,356 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:51:05,366 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:51:05,367 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:51:35,376 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:51:35,377 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:52:05,387 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:52:05,388 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:52:35,393 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:52:35,394 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:53:05,397 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:53:05,397 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:53:35,407 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:53:35,408 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:54:05,417 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:54:05,418 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:54:35,423 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:54:35,424 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:55:05,434 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:55:05,435 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:55:35,285 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:55:35,286 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:55:35,286 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:55:35,286 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:55:35,286 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:55:35,445 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:55:35,445 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:56:05,451 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:56:05,451 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:56:35,461 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:56:35,461 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:57:05,471 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:57:05,472 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:57:35,510 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:57:35,510 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:57:41,164 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:57:41,164 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:57:41,164 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:57:41,164 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:57:41,164 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:58:05,532 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:58:05,532 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:58:35,536 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:58:35,537 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:59:05,547 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:59:05,547 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:59:08,150 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 15:59:08,150 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 15:59:08,150 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 15:59:08,150 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 15:59:08,150 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 15:59:35,548 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 15:59:35,549 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:00:05,559 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:00:05,559 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:00:14,356 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:00:14,356 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:00:14,356 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:00:14,356 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:00:14,356 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:00:35,562 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:00:35,563 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:01:05,567 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:01:05,567 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:01:35,577 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:01:35,578 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:02:05,588 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:02:05,589 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:02:35,600 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:02:35,600 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:03:05,609 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:03:05,609 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:03:35,615 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:03:35,615 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:04:05,625 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:04:05,625 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:04:28,252 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:04:28,252 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:04:28,252 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:04:28,252 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:04:28,253 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:04:35,635 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:04:35,636 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:04:37,256 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:04:37,256 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:04:37,256 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:04:37,256 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:04:37,256 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:05:05,644 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:05:05,644 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:05:35,646 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:05:35,646 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:06:05,657 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:06:05,657 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:06:26,469 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:06:26,469 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:06:26,469 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:06:26,469 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:06:26,469 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:06:35,667 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:06:35,668 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:07:05,678 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:07:05,678 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:07:35,686 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:07:35,686 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:08:05,693 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:08:05,693 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:08:35,701 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:08:35,701 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:09:05,710 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:09:05,711 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:09:35,721 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:09:35,721 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:10:05,731 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:10:05,732 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:10:35,738 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:10:35,738 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:11:05,748 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:11:05,748 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:11:35,758 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:11:35,759 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:11:52,841 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:11:52,841 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:11:52,841 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:11:52,841 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:11:52,841 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:12:05,770 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:12:05,770 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:12:35,780 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:12:35,781 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:13:05,791 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:13:05,791 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:13:35,800 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:13:35,800 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:13:56,997 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:13:56,997 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:13:56,997 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:13:56,997 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:13:56,997 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:14:05,802 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:14:05,802 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:14:28,329 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:14:28,329 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:14:28,330 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:14:28,330 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:14:28,330 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:14:35,813 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:14:35,813 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:15:05,824 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:15:05,825 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:15:35,838 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:15:35,839 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:16:05,849 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:16:05,849 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:16:35,859 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:16:35,860 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:17:05,865 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:17:05,865 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:17:35,875 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:17:35,876 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:18:05,886 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:18:05,886 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:18:35,892 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:18:35,892 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:19:05,896 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:19:05,896 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:19:35,907 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:19:35,907 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:20:05,913 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:20:05,915 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:20:35,920 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:20:35,921 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:21:05,927 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:21:05,927 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:21:35,933 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:21:35,934 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:22:03,367 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:22:03,368 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:22:03,368 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:22:03,368 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:22:03,368 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:22:05,939 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:22:05,939 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:22:21,084 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 16:22:21,086 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 16:22:21] "GET / HTTP/1.1" 200 -
+2025-07-30 16:22:35,944 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:22:35,944 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:23:05,949 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:23:05,950 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:23:25,045 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 16:23:25,046 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 16:23:25] "GET / HTTP/1.1" 200 -
+2025-07-30 16:23:35,955 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:23:35,955 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:24:05,961 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:24:05,962 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:24:35,965 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:24:35,966 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:25:05,971 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:25:05,972 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:25:35,973 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:25:35,974 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:26:05,975 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:26:05,975 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:26:35,981 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:26:35,982 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:27:05,987 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:27:05,988 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:27:35,492 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:27:35,492 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:27:35,492 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:27:35,492 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:27:35,493 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:27:35,989 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:27:35,989 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:28:05,995 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:28:05,996 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:28:36,006 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:28:36,007 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:29:06,017 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:29:06,017 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:29:36,026 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:29:36,028 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:30:06,037 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:30:06,037 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:30:36,044 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:30:36,044 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:31:06,048 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:31:06,049 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:31:36,053 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:31:36,053 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:32:06,059 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:32:06,059 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:32:36,065 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:32:36,065 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:33:06,075 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:33:06,075 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:33:36,085 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:33:36,085 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:34:06,089 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:34:06,090 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:34:36,100 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:34:36,101 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:35:06,111 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:35:06,112 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:35:36,115 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:35:36,115 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:36:06,126 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:36:06,127 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:36:36,137 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:36:36,138 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:37:06,146 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:37:06,146 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:37:36,156 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:37:36,156 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:38:06,171 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:38:06,172 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:38:36,178 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:38:36,178 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:38:42,418 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:38:42,418 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:38:42,418 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:38:42,418 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:38:42,418 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:39:06,180 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:39:06,181 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:39:36,184 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:39:36,185 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:40:06,195 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:40:06,195 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:40:36,205 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:40:36,206 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:41:06,213 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:41:06,213 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:41:36,223 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:41:36,224 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:42:06,224 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:42:06,225 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:42:36,232 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:42:36,232 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:43:06,235 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:43:06,235 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:43:36,245 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:43:36,246 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:44:06,257 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:44:06,257 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:44:36,273 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:44:36,273 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:45:06,283 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:45:06,283 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:45:36,290 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:45:36,291 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:46:06,301 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:46:06,301 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:46:36,312 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:46:36,312 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:47:06,322 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:47:06,322 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:47:36,333 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:47:36,333 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:48:06,343 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:48:06,343 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:48:36,348 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:48:36,348 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:49:06,357 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:49:06,357 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:49:36,367 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:49:36,368 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:50:06,377 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:50:06,377 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:50:36,390 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:50:36,391 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:51:06,407 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:51:06,407 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:51:36,417 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:51:36,417 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:52:06,428 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:52:06,428 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:52:36,430 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:52:36,430 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:53:06,440 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:53:06,441 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:53:36,451 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:53:36,451 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:53:54,739 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:53:54,740 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:53:54,740 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:53:54,740 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:53:54,740 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:54:06,461 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:54:06,462 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:54:36,466 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:54:36,466 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:54:44,277 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:54:44,278 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:54:44,278 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:54:44,278 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:54:44,278 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:55:06,470 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:55:06,471 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:55:36,481 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:55:36,482 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:56:06,490 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:56:06,491 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:56:36,497 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:56:36,498 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:57:06,504 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:57:06,504 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:57:36,509 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:57:36,510 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:58:06,515 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:58:06,516 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:58:36,521 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:58:36,522 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:59:06,527 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:59:06,528 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:59:35,771 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 16:59:35,772 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 16:59:35,772 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 16:59:35,772 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 16:59:35,772 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 16:59:36,536 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 16:59:36,536 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:00:06,539 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:00:06,540 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:00:36,546 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:00:36,547 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:01:06,554 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:01:06,555 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:01:36,566 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:01:36,569 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:02:06,569 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:02:06,570 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:02:36,575 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:02:36,576 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:03:06,581 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:03:06,582 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:03:36,589 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:03:36,589 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:04:06,594 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:04:06,595 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:04:36,598 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:04:36,599 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:05:06,604 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:05:06,604 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:05:36,607 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:05:36,608 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:06:06,613 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:06:06,613 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:06:36,566 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:06:36,567 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:07:06,572 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:07:06,572 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:07:36,574 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:07:36,574 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:08:06,576 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:08:06,576 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:08:07,075 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:08:07] "GET /api/status HTTP/1.1" 200 -
+2025-07-30 17:08:36,578 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:08:36,578 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:09:06,583 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:09:06,584 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:09:25,465 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 17:09:25,467 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:09:25] "GET / HTTP/1.1" 200 -
+2025-07-30 17:09:36,584 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:09:36,585 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:10:06,551 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:10:06] "GET /api/status HTTP/1.1" 200 -
+2025-07-30 17:10:06,554 - LUMA - INFO - 💬 Requête IA: Bonjour LUMA, peux-tu me dire bonjour ?
+2025-07-30 17:10:06,589 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:10:06,589 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:10:16,576 - LUMA - ERROR - Erreur Ollama: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-07-30 17:10:16,579 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:10:16] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-30 17:10:16,582 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:10:16] "GET /api/medical/status HTTP/1.1" 200 -
+2025-07-30 17:10:16,586 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:10:16] "GET /api/domotic/status HTTP/1.1" 200 -
+2025-07-30 17:10:16,589 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:10:16,589 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:10:16] "GET /api/business/dashboard HTTP/1.1" 200 -
+2025-07-30 17:10:16,592 - LUMA - CRITICAL - 🚨 ALERTE URGENCE DÉCLENCHÉE VIA API!
+2025-07-30 17:10:16,593 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 17:10:16,593 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 17:10:16,593 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 17:10:16,593 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 17:10:16,593 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:10:16] "POST /api/emergency/trigger HTTP/1.1" 200 -
+2025-07-30 17:10:36,596 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:10:36,597 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:11:06,602 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:11:06,603 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:11:36,611 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:11:36,612 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:12:06,612 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:12:06,612 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:12:36,617 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:12:36,618 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:13:06,622 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:13:06,623 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:13:30,692 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:13:30] "GET /api/status HTTP/1.1" 200 -
+2025-07-30 17:13:36,628 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:13:36,628 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:13:45,039 - LUMA - INFO - 💬 Requête IA: Bonjour LUMA, peux-tu me dire bonjour avec OpenRouter ?
+2025-07-30 17:13:55,046 - LUMA - ERROR - Erreur Ollama: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=10)
+2025-07-30 17:13:55,058 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:13:55] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-30 17:14:06,629 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:14:06,629 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:14:30,148 - LUMA - INFO - 💬 Requête IA: Bonjour LUMA ! Peux-tu me dire bonjour et me confirmer que tu utilises OpenRouter ?
+2025-07-30 17:14:33,118 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:14:33] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-30 17:14:36,637 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:14:36,641 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:15:06,657 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:15:06,660 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:15:36,668 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:15:36,668 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:16:06,678 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:16:06,679 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:16:36,683 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:16:36,683 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:17:06,688 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:17:06,688 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:17:33,780 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 17:17:33,780 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 17:17:33,780 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 17:17:33,780 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 17:17:33,780 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 17:17:36,700 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:17:36,700 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:18:01,408 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 17:18:01,408 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 17:18:01,408 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 17:18:01,408 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 17:18:01,409 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 17:18:06,704 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:18:06,704 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:18:30,618 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:18:30] "GET /api/status HTTP/1.1" 200 -
+2025-07-30 17:18:36,705 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:18:36,706 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:18:42,225 - LUMA - INFO - 💬 Requête IA: Bonjour LUMA ! Peux-tu me dire bonjour et me confirmer que tu utilises OpenRouter ?
+2025-07-30 17:18:48,451 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:18:48] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-30 17:18:55,594 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:18:55] "GET /api/status HTTP/1.1" 200 -
+2025-07-30 17:18:55,596 - LUMA - INFO - 💬 Requête IA: Bonjour LUMA, peux-tu me dire bonjour ?
+2025-07-30 17:18:57,196 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:18:57] "POST /api/ai/chat HTTP/1.1" 200 -
+2025-07-30 17:18:57,217 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:18:57] "GET /api/medical/status HTTP/1.1" 200 -
+2025-07-30 17:18:57,225 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:18:57] "GET /api/domotic/status HTTP/1.1" 200 -
+2025-07-30 17:18:57,227 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:18:57,227 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:18:57] "GET /api/business/dashboard HTTP/1.1" 200 -
+2025-07-30 17:18:57,230 - LUMA - CRITICAL - 🚨 ALERTE URGENCE DÉCLENCHÉE VIA API!
+2025-07-30 17:18:57,230 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 17:18:57,230 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 17:18:57,230 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 17:18:57,230 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 17:18:57,230 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:18:57] "POST /api/emergency/trigger HTTP/1.1" 200 -
+2025-07-30 17:19:06,710 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:19:06,711 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:19:36,715 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:19:36,716 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:19:40,009 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 17:19:40,010 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:19:40] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-30 17:19:45,476 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 17:19:45,477 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:19:45] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-30 17:19:47,308 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 17:19:47,308 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 17:19:47] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-30 17:20:06,721 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:20:06,722 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:20:36,723 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:20:36,729 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:21:06,730 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:21:06,731 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:21:36,734 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:21:36,735 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:22:06,739 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:22:06,739 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:22:36,743 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:22:36,744 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:23:06,756 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:23:06,756 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:23:36,757 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:23:36,758 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:24:06,762 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:24:06,763 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:24:36,766 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:24:36,766 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:25:06,769 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:25:06,770 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:25:36,771 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:25:36,772 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:26:06,774 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:26:06,775 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:26:36,779 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:26:36,779 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:27:06,779 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:27:06,779 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:27:36,784 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:27:36,784 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:27:50,211 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 17:27:50,211 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 17:27:50,211 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 17:27:50,211 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 17:27:50,211 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 17:28:06,784 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:28:06,785 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:28:36,789 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:28:36,789 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:28:44,397 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 17:28:44,397 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 17:28:44,397 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 17:28:44,397 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 17:28:44,397 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 17:29:06,792 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:29:06,792 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:29:36,796 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:29:36,797 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:30:06,801 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:30:06,801 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:30:36,805 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:30:36,805 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:31:06,809 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:31:06,810 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:31:36,814 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:31:36,815 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:32:06,819 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:32:06,819 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:32:36,819 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:32:36,820 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:33:06,827 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:33:06,827 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:33:36,834 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:33:36,835 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:34:06,837 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:34:06,839 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:34:36,848 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:34:36,848 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:35:06,855 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:35:06,856 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:35:36,858 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:35:36,859 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:36:06,863 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:36:06,863 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:36:36,868 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 17:36:36,868 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:04:47,544 - LUMA - INFO - ✅ Toutes les dépendances sont installées
+2025-07-30 22:04:47,545 - LUMA - INFO - Configuration LUMA chargée
+2025-07-30 22:04:47,560 - LUMA - INFO - 🏡 Contrôleur domotique initialisé
+2025-07-30 22:04:47,561 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:04:47,562 - LUMA - INFO - 🤖 Serveur LUMA initialisé
+2025-07-30 22:04:47,562 - LUMA - INFO - 🏥 Démarrage surveillance médicale
+2025-07-30 22:04:47,562 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:04:47,562 - LUMA - INFO - 🔄 Tâches en arrière-plan démarrées
+2025-07-30 22:04:47,562 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:04:47,563 - LUMA - INFO - 🚀 LUMA Business Pro démarré sur http://127.0.0.1:8080
+2025-07-30 22:04:47,619 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-07-30 22:04:47,619 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 22:05:17,563 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:05:17,564 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:05:47,565 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:05:47,567 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:06:17,577 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:06:17,582 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:06:47,586 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:06:47,587 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:07:17,626 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:07:17,647 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:07:47,647 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:07:47,648 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:08:17,653 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:08:17,655 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:08:47,657 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:08:47,658 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:09:17,662 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:09:17,663 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:09:47,668 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:09:47,670 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:09:52,580 - LUMA - INFO - 📱 Accès à l'interface LUMA
+2025-07-30 22:09:52,593 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 22:09:52] "GET / HTTP/1.1" 200 -
+2025-07-30 22:10:17,675 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:10:17,675 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:10:47,676 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:10:47,677 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:11:17,680 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:11:17,681 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:11:47,686 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:11:47,687 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:12:07,918 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 22:12:07,920 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 22:12:07,920 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 22:12:07,920 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 22:12:07,920 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 22:12:17,692 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:12:17,693 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:12:47,707 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:12:47,708 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:13:17,710 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:13:17,711 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:13:47,715 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:13:47,716 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:14:17,718 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:14:17,718 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:14:47,725 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:14:47,726 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:15:17,739 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:15:17,740 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:15:47,750 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:15:47,751 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:15:58,405 - LUMA - WARNING - ⚠️ RISQUE ÉPILEPSIE DÉTECTÉ!
+2025-07-30 22:15:58,408 - LUMA - CRITICAL - 🚨 ALERTE MÉDICALE DÉCLENCHÉE!
+2025-07-30 22:15:58,408 - LUMA - INFO - 📞 Appel automatique: SAMU - 15
+2025-07-30 22:15:58,408 - LUMA - INFO - 📞 Appel automatique: Dr. Martin - +33612345678
+2025-07-30 22:15:58,408 - LUMA - INFO - 📞 Appel automatique: Famille - +33687654321
+2025-07-30 22:16:17,765 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:16:17,766 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:16:47,787 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:16:47,790 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:17:17,795 - LUMA - INFO - 📊 Métriques business mises à jour
+2025-07-30 22:17:17,796 - LUMA - INFO - 📊 Métriques business mises à jour

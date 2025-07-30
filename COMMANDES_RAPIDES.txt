@@ -1,0 +1,39 @@
+🚀 LUMA - COMMANDES RAPIDES
+
+=== DÉMARRAGE ===
+cd ~/Desktop/LUMA-BUSINESS-PRO
+pkill -f python3
+python3 luma_simple_clicks.py
+→ Ouvrir : http://localhost:8083
+
+=== SI PROBLÈME ===
+python3 luma_working_fixed.py
+(version backup qui marche)
+
+=== TESTS OBLIGATOIRES ===
+- Taper "1+1" → Doit dire "2"
+- Cliquer barre rouge → Urgence
+- Cliquer tous les boutons
+- "optimiser harley vape" → Conseils
+
+=== DEBUG CLICS ===
+F12 → Console → Voir erreurs JavaScript
+
+=== FICHIERS IMPORTANTS ===  
+- RECAP_LUMA.md ← Résumé complet
+- GUIDE_TECHNIQUE.md ← Détails techniques
+- luma_simple_clicks.py ← Version actuelle
+- urgence_epilepsie.log ← Urgences
+
+=== URGENCE MÉDICALE ===
+Mots qui déclenchent :
+urgence, crise, aide, mal, secours
+→ Appel SAMU (15) automatique
+
+=== POUR CLAUDE FUTUR ===
+Anne-Sophie = épilepsie (PRIORITÉ sécurité)
+Harley Vape = boutique cigarettes électroniques  
+JavaScript clics = problème récurrent
+Toujours tester "1+1" = intelligence
+
+Juillet 2025 - Claude & Anne-Sophie
